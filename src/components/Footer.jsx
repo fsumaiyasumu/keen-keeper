@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-[#2b5b49] text-white mt-20">
       <div className="max-w-7xl mx-auto px-6 py-16 text-center">
         
-        {/* Title */}
+        {/* Title-items */}
         <h2 className="text-4xl font-bold mb-4">KeenKeeper</h2>
 
         {/* Subtitle */}
