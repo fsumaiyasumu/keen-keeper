@@ -19,13 +19,13 @@ const Navbar = ()=> {
     <nav className="w-full border-b border-[#E9E9E9] bg-white">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         
-        {/* Logo */}
+        {/* Logo items */}
         <Link href="/" className="text-gray-900 text-lg tracking-tight">
           <span className="font-bold">Keen</span>
           <span className="text-[#244D3F]">Keeper</span>
         </Link>
 
-        {/* Desktop Nav */}
+        {/* Desktop Navber */}
         <div className="hidden lg:flex gap-2">
           {navItems.map(({ label, icon: Icon, href }) => (
             <Link
