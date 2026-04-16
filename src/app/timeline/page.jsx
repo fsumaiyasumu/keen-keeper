@@ -44,7 +44,7 @@ const TimelinePage = () => {
   return (
     <div className="container mx-auto px-6 py-10">
 
-      {/* Header */}
+      {/* Header section */}
       <h1 className="text-3xl font-bold text-gray-900 mb-6">
         Timeline
       </h1>
@@ -81,12 +81,12 @@ const TimelinePage = () => {
               key={item.id}
               className="flex items-center gap-4 px-5 py-4 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition"
             >
-              {/* Icon */}
+              {/* Icons */}
               <div className="w-11 h-11 flex items-center justify-center rounded-full bg-gray-50 border border-gray-100 shrink-0">
                 {getIcon(item.type)}
               </div>
 
-              {/* Content */}
+              {/* Content option */}
               <div>
                 <p className="text-sm text-gray-800">
                   <span className="font-bold">{getLabel(item.type)}</span>{" "}

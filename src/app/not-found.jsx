@@ -22,7 +22,7 @@ const NotFoundPage = () => {
                     The page you are looking for doesn’t exist or has been moved.
                 </p>
 
-                {/* Actions */}
+                {/* Actions part*/}
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                     <button
                         onClick={() => router.push("/")}
@@ -39,7 +39,7 @@ const NotFoundPage = () => {
                     </button>
                 </div>
 
-                {/* Helper text */}
+                {/* Helper text part*/}
                 <p className="text-xs text-gray-400 mt-6">
                     Check the URL or return to the homepage.
                 </p>
