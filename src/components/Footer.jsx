@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom */}
+        {/* Bottom-part*/}
         <div className="border-t border-white/20 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-200">
           <p>© 2026 KeenKeeper. All rights reserved.</p>
 
