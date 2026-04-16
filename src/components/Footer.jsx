@@ -57,9 +57,9 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom-part*/}
+        {/* Bottom-part-section*/}
         <div className="border-t border-white/20 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-200">
-          <p>© 2026 KeenKeeper. All rights reserved.</p>
+          <p>© 2026 KeenKeeper. All rights reserved. </p>
 
           <div className="flex gap-6 mt-3 md:mt-0">
             <Link href="#">Privacy Policy</Link>
