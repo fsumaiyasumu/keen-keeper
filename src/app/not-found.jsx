@@ -9,7 +9,7 @@ const NotFoundPage = () => {
         <div className="min-h-screen flex items-center justify-center bg-gray-50 px-6">
             <div className="text-center max-w-md">
 
-                {/* Big 404 */}
+                {/* Big 404 error*/}
                 <h1 className="text-8xl font-bold text-[#1e4d3a] mb-4">
                     404
                 </h1>

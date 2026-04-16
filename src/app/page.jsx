@@ -68,7 +68,7 @@ const HomePage = () => {
                     Your Friends
                 </h2>
 
-                {/* Responsive Grid */}
+                {/* Responsive Grid layout*/}
                 {
                     loading ? (
                         <div className="flex justify-center items-center py-20">
